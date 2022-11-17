@@ -1,0 +1,11 @@
+.footer_container {
+  background-color: #000000;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer_container h3 {
+  padding: 0px 30px;
+}
