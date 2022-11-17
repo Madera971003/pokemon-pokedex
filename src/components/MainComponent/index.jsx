@@ -176,6 +176,7 @@ export const MainComponent = () => {
                   <img
                     src={
                       pokemon.sprites.other.dream_world.front_default ??
+                      pokemon.sprites.other['official-artwork'].front_default ??
                       './no_image.png'
                     }
                     alt={pokemon.name}
