@@ -76,7 +76,9 @@ export const MainComponent = () => {
     }
   };
   const handleClick = () => {
-    getPokemon(pokemonNameOrId);
+    if (pokemonNameOrId) {
+      getPokemon(pokemonNameOrId);
+    }
   };
 
   useEffect(() => {
