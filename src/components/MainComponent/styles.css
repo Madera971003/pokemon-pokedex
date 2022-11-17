@@ -45,11 +45,17 @@
 }
 
 .text_help {
-  color: gray;
+  color: gray;  
 }
 
 .error_bar {
   margin-top: 15px;
+}
+
+.no_pokemon_text {
+  margin-top: 50px;
+  color: rgb(173, 173, 173);
+  text-align: center;
 }
 
 

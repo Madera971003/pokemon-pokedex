@@ -148,6 +148,9 @@ export const MainComponent = () => {
         </Alert>
       )}
       {loading && <Spinner />}
+      {!pokemon && !loading && (
+        <h2 className='no_pokemon_text'>Search your First Pokemon...</h2>
+      )}
       {pokemon && (
         <Grid
           container
@@ -193,7 +196,7 @@ export const MainComponent = () => {
             sm={12}
             md={8}
             lg={8}
-            sx={{ padding: '10px' }}
+            sx={{ padding: '10px', marginBottom: '40px' }}
           >
             {abilities && (
               <Paper
